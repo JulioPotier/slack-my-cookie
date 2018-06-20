@@ -7,6 +7,7 @@ Version: 1.0.7
 */
 
 $token = 'AZERTY123456789'; // Your token
+include('vendor/autoload.php');
 
 if ( hash_equals( $token, $_REQUEST['token'] ) ) {
 	require('../wp-load.php'); // Load WordPress nested in 1 folder.

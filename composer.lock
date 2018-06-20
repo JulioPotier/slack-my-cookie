@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2a940bbc34d9b33d20c8cb852cd4f8f3",
+    "packages": [
+        {
+            "name": "clue/arguments",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/php-arguments.git",
+                "reference": "eb8356918bc51ac7e595e4ad92a2bc1c1d2754c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/php-arguments/zipball/eb8356918bc51ac7e595e4ad92a2bc1c1d2754c2",
+                "reference": "eb8356918bc51ac7e595e4ad92a2bc1c1d2754c2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Clue\\Arguments\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "The simple way to split your command line string into an array of command arguments in PHP.",
+            "homepage": "https://github.com/clue/php-arguments",
+            "keywords": [
+                "args",
+                "arguments",
+                "argv",
+                "command",
+                "command line",
+                "explode",
+                "parse",
+                "split"
+            ],
+            "time": "2016-12-18T14:37:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}

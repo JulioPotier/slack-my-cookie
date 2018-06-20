@@ -1,0 +1,15 @@
+{
+    "name": "boiteaweb/slack-my-cookie",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julio Potier"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "clue/arguments": "2.0"
+    }
+}
